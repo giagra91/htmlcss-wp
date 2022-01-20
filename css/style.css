@@ -118,6 +118,10 @@ ol.nav-menu li{
     left: 50px;
 }
 
+div.jumbotron-text>h2{
+    font-weight: normal;
+}
+
 .main-container{
     text-align: left;
 }
