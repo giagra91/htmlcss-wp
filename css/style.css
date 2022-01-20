@@ -27,6 +27,14 @@ body{
     float: left;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 .top-container{
     margin: 0 auto;
     width: 100%;
@@ -40,6 +48,10 @@ body{
     height: 400px;
     margin-bottom: 20px;
     background-color: rgb(225, 217, 110);
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 /* Contenitore principale */
@@ -94,6 +106,18 @@ ol.nav-menu li{
     color: gray;
 }
 
+.jumbotron-text{
+    color: white;
+    width: 500px;
+    line-height: 30px;
+    font-size: 15px;
+    bottom: 30px;
+    left: 50px;
+}
+
+div#jumbotron-text>h2{
+    color: white;
+}
 
 #logo-image{
     text-align: left;
@@ -101,5 +125,8 @@ ol.nav-menu li{
     border-right: 1px solid lightgray;
     padding-right: 20px;
     margin-bottom: 15px;
+}
 
+#jumbotron-image{
+    /* width: 100%; */
 }
